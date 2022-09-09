@@ -15,7 +15,7 @@
 ## Usage
 Launch Cypress app to run tests manually
 ```sh
-npm cypress
+npm run cypress
 ```
 
 Run all tests headless in Chrome
