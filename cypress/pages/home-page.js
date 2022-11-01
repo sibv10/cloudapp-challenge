@@ -4,7 +4,7 @@ import links from '../fixtures/links.json'
 class HomePage extends Page {
 
     elems = {
-        loginLnk : () => cy.get('#login-dblue'),
+        loginLnk : () => cy.get('.elementor-nav-menu [href*="login"]').first()
     }
 
     navigate () {
